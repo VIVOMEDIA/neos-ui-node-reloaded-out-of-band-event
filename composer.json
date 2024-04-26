@@ -1,0 +1,15 @@
+{
+    "name": "vivomedia/neos-ui-node-reloaded-out-of-band-ui",
+    "type": "neos-plugin",
+    "description": "NodeReloadedOutOfBand Event for Neos UI",
+    "require": {
+        "neos/neos": "*",
+        "neos/neos-ui": "*"
+    },
+    "license": ["MIT"],
+    "autoload": {
+        "psr-4": {
+            "VIVOMEDIA\\NeosUI\\NodeReloadedOutOfBandEvent\\": "Classes"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'VIVOMEDIA.NeosUI.NodeReloadedOutOfBandEvent:NodeReloadedOutOfBandEvent':
+            resource: resource://VIVOMEDIA.NeosUI.NodeReloadedOutOfBandEvent/Public/NodeReloadedOutOfBandEvent/Plugin.js
