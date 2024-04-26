@@ -1,5 +1,5 @@
 {
-    "name": "vivomedia/neos-ui-node-reloaded-out-of-band-ui",
+    "name": "vivomedia/neos-ui-node-reloaded-out-of-band-event",
     "type": "neos-plugin",
     "description": "NodeReloadedOutOfBand Event for Neos UI",
     "require": {

@@ -1,6 +1,6 @@
 # Neos CMS - NodeReloadedOutOfBand Event for NeosUI
 
-[![License](https://poser.pugx.org/vivomedia/neos-ui-json-validator/license)](https://packagist.org/packages/vivomedia/neos-ui-node-reloaded-out-of-band-ui)
+[![License](https://poser.pugx.org/vivomedia/neos-ui-json-validator/license)](https://packagist.org/packages/vivomedia/neos-ui-node-reloaded-out-of-band-event)
 
 A plugin for Neos.UI which sends an Event on every handled server feedback of type `Neos.Neos.Ui:ReloadContentOutOfBand/Main`
 
@@ -9,7 +9,7 @@ A plugin for Neos.UI which sends an Event on every handled server feedback of ty
 Install with composer
 
 ```
-composer require vivomedia/neos-ui-node-reloaded-out-of-band-ui 
+composer require vivomedia/neos-ui-node-reloaded-out-of-band-event 
 ```
 
 ## Usage
