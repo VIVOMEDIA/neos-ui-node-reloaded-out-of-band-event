@@ -947,8 +947,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 (0, _neosUiExtensibility2.default)('VIVOMEDIA.NeosUI.NodeChangedEvent:NodeChanged', {}, function (globalRegistry) {
 
-    console.log("LOADED");
-
     var serverFeedbackHandlers = globalRegistry.get('serverFeedbackHandlers');
     var reloadContentOutOfBand = serverFeedbackHandlers.get('Neos.Neos.Ui:ReloadContentOutOfBand/Main');
     serverFeedbackHandlers.set('Neos.Neos.Ui:ReloadContentOutOfBand/Main', function (feedbackPayload, _ref) {

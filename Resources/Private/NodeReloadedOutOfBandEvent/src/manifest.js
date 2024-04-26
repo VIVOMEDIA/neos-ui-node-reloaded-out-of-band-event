@@ -5,8 +5,6 @@ import {dispatchCustomEvent, findNodeInGuestFrame} from '@neos-project/neos-ui-g
 
 manifest('VIVOMEDIA.NeosUI.NodeChangedEvent:NodeChanged', {}, globalRegistry => {
 
-    console.log("LOADED");
-
     const serverFeedbackHandlers = globalRegistry.get('serverFeedbackHandlers');
     const reloadContentOutOfBand = serverFeedbackHandlers.get('Neos.Neos.Ui:ReloadContentOutOfBand/Main');
     serverFeedbackHandlers.set('Neos.Neos.Ui:ReloadContentOutOfBand/Main', (feedbackPayload, {store, globalRegistry}) => {
