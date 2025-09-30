@@ -3,8 +3,7 @@
     "type": "neos-plugin",
     "description": "NodeReloadedOutOfBand Event for Neos UI",
     "require": {
-        "neos/neos": "*",
-        "neos/neos-ui": "*"
+        "neos/neos-ui": "^8.3"
     },
     "license": ["MIT"],
     "autoload": {
